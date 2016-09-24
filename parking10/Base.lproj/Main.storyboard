@@ -20,7 +20,7 @@
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gYn-gn-2Ye">
                                 <subviews>
-                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ToD-ZO-h4Q"/>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="satellite" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ToD-ZO-h4Q"/>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oSW-X0-esa">
@@ -52,6 +52,9 @@
                             <constraint firstAttribute="trailing" secondItem="oSW-X0-esa" secondAttribute="trailing" id="ygd-RI-xlx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="ToD-ZO-h4Q" id="hhC-9Q-36C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

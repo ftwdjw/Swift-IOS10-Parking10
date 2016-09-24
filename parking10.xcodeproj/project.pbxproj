@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7EB1071D96C0BD000C6879 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1B7EB1061D96C0BD000C6879 /* ReadMe.rtf */; };
 		1BD01CD81D94878D00E5ABFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD01CD71D94878D00E5ABFB /* AppDelegate.swift */; };
 		1BD01CDA1D94878D00E5ABFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD01CD91D94878D00E5ABFB /* ViewController.swift */; };
 		1BD01CDD1D94878D00E5ABFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD01CDB1D94878D00E5ABFB /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B7EB1061D96C0BD000C6879 /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
 		1BD01CD41D94878D00E5ABFB /* parking10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parking10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD01CD71D94878D00E5ABFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BD01CD91D94878D00E5ABFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				1BD01CDB1D94878D00E5ABFB /* Main.storyboard */,
 				1BD01CD71D94878D00E5ABFB /* AppDelegate.swift */,
+				1B7EB1061D96C0BD000C6879 /* ReadMe.rtf */,
 				1BD01CD91D94878D00E5ABFB /* ViewController.swift */,
 				1BD01CDE1D94878D00E5ABFB /* Assets.xcassets */,
 				1BD01CE01D94878D00E5ABFB /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 			files = (
 				1BD01CE21D94878D00E5ABFB /* LaunchScreen.storyboard in Resources */,
 				1BD01CDF1D94878D00E5ABFB /* Assets.xcassets in Resources */,
+				1B7EB1071D96C0BD000C6879 /* ReadMe.rtf in Resources */,
 				1BD01CDD1D94878D00E5ABFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +325,7 @@
 				1BD01CE81D94878D00E5ABFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
